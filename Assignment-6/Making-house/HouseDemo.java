@@ -5,9 +5,6 @@ class HouseDemo extends Canvas
 {
 	public void paint(Graphics g)
 	{
-	
-
-
 		g.setColor(Color.BLACK);
  
 		int x[] = {315, 80, 550, 120, 120, 250, 250, 350, 350, 500, 500, 550, 315};
@@ -32,11 +29,11 @@ class HouseDemo extends Canvas
 
 	public static void main(String[] args) 
 	{
-		HouseDemo h = new HouseDemo();
-		Frame f = new Frame();
+		HouseDemo house = new HouseDemo();
+		Frame frame = new Frame();
 
-			f.setSize(800, 800);
-			f.setVisible(true);
-			f.add(h);	
+			frame.setSize(800, 800);
+			frame.setVisible(true);
+			frame.add(house);	
 	}
 }
